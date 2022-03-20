@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bloop-browser.github.io/LandingPage/static/js/main.0889bd9f.js",
-    "index.html": "/bloop-browser.github.io/LandingPage/index.html",
-    "main.0889bd9f.js.map": "/bloop-browser.github.io/LandingPage/static/js/main.0889bd9f.js.map"
+    "main.js": "/getbloop.co/static/js/main.1b3ec757.js",
+    "index.html": "/getbloop.co/index.html",
+    "main.1b3ec757.js.map": "/getbloop.co/static/js/main.1b3ec757.js.map"
   },
   "entrypoints": [
-    "static/js/main.0889bd9f.js"
+    "static/js/main.1b3ec757.js"
   ]
 }
