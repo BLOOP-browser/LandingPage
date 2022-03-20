@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #010101;
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
+}
+main {
+  text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+main img {
+  width: 70%;
+}
+.main-text {
+  margin: 20px;
+}
+.connect-content {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.connect-content img {
+  position: relative;
+  right: 0;
+  width: 60%;
+}
