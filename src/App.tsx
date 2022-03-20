@@ -1,12 +1,13 @@
 import React from 'react';
 import './css/styles.css'
-import { DownloadButton } from './download-button'
+import * as bloop from "./img/BLOOP.png"
+
 function App() {
   return (
     <div className="App">
         <main>
         <div className="main-content">
-            <img src="./img/BLOOP.png" alt=""/>
+            <img src={bloop} alt=""/>
       
             <div className="main-text">
               <h1>A BROWSER FOR THE CURIOUS</h1>
