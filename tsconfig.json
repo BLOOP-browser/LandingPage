@@ -19,7 +19,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
-    "typeRoots" : ["src/index.d.tsx"]
+    // "typeRoots" : ["src/index.d.tsx"]
   },
   "include": [
     "src"

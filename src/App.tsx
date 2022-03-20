@@ -1,6 +1,8 @@
 import React from 'react';
 import './css/styles.css'
-import * as bloop from "./img/BLOOP.png"
+import bloop from "./img/BLOOPCENTER.svg"
+import simpleMap from './img/SIMPLEMAP1.svg'
+import detailedMap from './img/DETAILEDMAP.svg'
 
 function App() {
   return (
@@ -10,8 +12,7 @@ function App() {
             <img src={bloop} alt=""/>
       
             <div className="main-text">
-              <h1>A BROWSER FOR THE CURIOUS</h1>
-              <p>Create your map of the internet</p>
+              <h1 className='text-one'><b>A browser for the curious. <br /> <span className='pale-white'>Create your map of the internet</span></b></h1>
             </div>
       
             <div className="cta">
@@ -25,11 +26,27 @@ function App() {
 
       <section className="connect">
         <div className="connect-content">
-          <h2>Connect your interest and see your internet</h2>
-          <img src="./img/CONNECT.svg" alt=""/>
+          <h2 className='text-one'>Connect <span className='pale-white'>your <br /> interests</span></h2>
+          <img className='simpleMap' src={simpleMap} alt=""/>
+        </div>
+      </section>
+
+      <section className="learn">
+        <div className="learn-content">
+          <h2 className='text-one'> <span className='pale-white'>Learn from your <br /></span>journey  <span className='pale-white'> and see <br /> your internet</span></h2>
+          <img className='detailedMap' src={detailedMap} alt=""/>
         </div>
       </section>
       
+      <div className='footer-cta'>
+        <div className="cta">
+            <form>
+              <input type="text" placeholder="What's your email?"/>
+              <button>DOWNLOAD</button>
+            </form>
+            <p>Available for all desktop platforms</p>
+        </div>
+      </div>
     </div>
   );
 }
