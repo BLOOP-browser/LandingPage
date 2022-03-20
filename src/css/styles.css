@@ -15,19 +15,31 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  padding: 10px;
 }
 .main-content {
+  position: relative;
+  margin-top: 5%;
+  margin-right: 0px;
+  margin-bottom:5%;
   display: flex;
+  width: auto;
   flex-direction: column;
   align-items: center;
+  padding-top: 0px;
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-bottom: 64px;
 }
 
 main img {
+  padding-top: 0px;
   width: 50%;
+  height: auto;
 }
 .main-text {
   margin: 20px;
+  width: flex;
 }
 .text-one {
   font-size: 48px;
@@ -59,7 +71,6 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   text-align: center;
 }
 .footer-cta p {
@@ -74,7 +85,10 @@ form {
   justify-content: center;
   align-items: center;
 }
-.simpleMap,
+.simpleMap{
+  height: 50%;
+}
+
 .detailedMap {
-  width: 50%;
+  height: 80%;
 }
