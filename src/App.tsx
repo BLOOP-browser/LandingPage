@@ -7,9 +7,10 @@ import detailedMap from './img/DETAILEDMAP.svg'
 function App() {
   return (
     <div className="App">
+      <section className = "connect">
         <main>
         <div className="main-content">
-            <img src={bloop} alt=""/>
+            <img src={bloop}  alt="" />
       
             <div className="main-text">
               <h1 className='text-one'><b>A browser for the curious. <br /> <span className='pale-white'>Create your map of the internet</span></b></h1>
@@ -23,6 +24,7 @@ function App() {
             </div>
         </div>
       </main>
+      </section>
 
       <section className="connect">
         <div className="connect-content">
