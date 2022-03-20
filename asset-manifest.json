@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/LandingPage/static/js/main.1b3ec757.js",
-    "index.html": "/LandingPage/index.html",
-    "main.1b3ec757.js.map": "/LandingPage/static/js/main.1b3ec757.js.map"
+    "main.js": "/static/js/main.1b3ec757.js",
+    "index.html": "/index.html",
+    "main.1b3ec757.js.map": "/static/js/main.1b3ec757.js.map"
   },
   "entrypoints": [
     "static/js/main.1b3ec757.js"
