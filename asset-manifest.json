@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/getbloop.co/static/js/main.1b3ec757.js",
-    "index.html": "/getbloop.co/index.html",
-    "main.1b3ec757.js.map": "/getbloop.co/static/js/main.1b3ec757.js.map"
+    "main.js": "/LandingPage/static/js/main.1b3ec757.js",
+    "index.html": "/LandingPage/index.html",
+    "main.1b3ec757.js.map": "/LandingPage/static/js/main.1b3ec757.js.map"
   },
   "entrypoints": [
     "static/js/main.1b3ec757.js"
