@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20220411
+DTEND;VALUE=DATE:20220412
+DTSTAMP:20220320T173718Z
+ORGANIZER;CN=osvaldo@armas.ai:mailto:osvaldo@armas.ai
+UID:0nr52oq1p9v4g3p693o0qq7a62@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;
+X-MICROSOFT-CDO-OWNERAPPTID:33997773
+CLASS:PUBLIC
+CREATED:20220320T165812Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nDo not edit this section of the description.\n\nV
+ iew your event at https://calendar.google.com/calendar/event?action=VIEW&ei
+ d=MG5yNTJvcTFwOXY0ZzNwNjkzbzBxcTdhNjIgb2FybWFzOTVAbQ&tok=MTYjb3N2YWxkb0Bhcm
+ 1hcy5haWFjN2RmNDM3N2Q2Y2FiZTM3NzgxOGFhNTAyMjYyZmFhZGQ5OWQ2ZGE&ctz=America%2
+ FLos_Angeles&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20220320T173717Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Bloop Browser Beta Release
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
