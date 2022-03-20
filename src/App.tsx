@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/styles.css'
 import { DownloadButton } from './download-button'
 function App() {
   return (
