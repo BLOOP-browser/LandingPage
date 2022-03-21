@@ -17,6 +17,9 @@ export class SignUpForm extends React.Component<any, IState> {
     }
     async onClick() {
         const response = await sendEmailTest(this.state.value)
+        if (response) {
+            this.setState({value: 'Thanks for Signing Up!'})
+        }
     }
     render() {
         return (            

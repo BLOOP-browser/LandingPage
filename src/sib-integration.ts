@@ -22,6 +22,7 @@ export async function sendEmailTest(email_address: string) {
     };
     const response = await fetch('https://api.sendinblue.com/v3/smtp/email', options);
     console.log(response)
+    return response
   }
   
  
