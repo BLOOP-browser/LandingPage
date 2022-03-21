@@ -19,7 +19,7 @@ function App() {
             <div className="cta">
               <form>
                 <input type="text" placeholder="What's your email?"/>
-                <button>DOWNLOAD</button>
+                <button type='button'>DOWNLOAD</button>
               </form>
             </div>
         </div>
