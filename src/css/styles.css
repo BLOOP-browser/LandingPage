@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -9,6 +9,7 @@ body {
   color: #f1f1f1;
   font-family: "Inter", sans-serif;
 }
+
 main {
   text-align: center;
   /* border: 1px solid red; */
@@ -16,20 +17,30 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  margin-top: 5%;
+  margin-bottom:5%;
 }
 .main-content {
   position: relative;
-  margin-top: 5%;
-  margin-right: 0px;
-  margin-bottom:5%;
+  margin-right: 64px;
+  margin-left: 64px;
+
   display: flex;
   width: auto;
   flex-direction: column;
   align-items: center;
+}
+
+.body-content{
+  position: relative;
+  margin-right: 64px;
+  margin-left: 64px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center; 
   padding-top: 0px;
-  padding-right: 64px;
-  padding-left: 64px;
-  padding-bottom: 64px;
+
 }
 
 main img {
@@ -42,9 +53,10 @@ main img {
   width: flex;
 }
 .text-one {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
 }
+
 .pale-white {
   color: #9caec0;
 }
@@ -55,15 +67,18 @@ form {
   background-color: #383b40;
   margin-right: 10px;
   border: none;
-  border-radius: 7px;
-  height: 50px;
-  width: 80%;
+  border-radius: 15px;
+  height: 40px;
+  min-width: 50%;
+  width: auto;
+  
 }
 .cta button {
   background-color: #ee6b41;
-  padding: 10px;
-  height: 50px;
-  border-radius: 7px;
+  padding: 10x;
+  height: 40px;
+  width: 125px;
+  border-radius: 15px;
   font-weight: bold;
 }
 .footer-cta {
@@ -77,18 +92,121 @@ form {
   margin-top: 10px;
   font-weight: 600;
 }
-.connect-content,
-.learn-content {
-  height: 100vh;
-  padding: 10px;
+.copyright-cta {
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+
+.copyright-cta p {
+  font-size:12px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.connect-content,
+.learn-content {
+  position: relative;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 0px;
+  /* padding-right: 64px;
+  padding-left: 64px;*/
+  padding-bottom: 64px;
+  text-align: left;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom:5%;
 }
 .simpleMap{
-  height: 50%;
+  height: 90vh;
+  max-height: 700px;
+  padding-left: 20vw;
 }
 
 .detailedMap {
-  height: 80%;
+  height: 100vh;
+  max-height: 900px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 300px){
+  * {
+    justify-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  main img {
+    width: 80%;
+    height: auto;
+  }
+
+  .main-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+
+  .body-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .main-text {
+    width: flex;
+  }
+  .text-one {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  form {
+    width: 100%;
+  }
+  .cta input {
+    background-color: #383b40;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .cta button {
+    background-color: #ee6b41;
+    padding: 5px;
+    height: 30px;
+    width: 50%;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
 }
