@@ -9,6 +9,7 @@ body {
   color: #f1f1f1;
   font-family: "Inter", sans-serif;
 }
+
 main {
   text-align: center;
   /* border: 1px solid red; */
@@ -16,12 +17,14 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
-}
-.main-content {
-  position: relative;
   margin-top: 5%;
   margin-right: 0px;
   margin-bottom:5%;
+}
+.main-content {
+  position: relative;
+  margin-right: 64px;
+  margin-left: 64px;
   display: flex;
   width: auto;
   flex-direction: column;
@@ -30,6 +33,17 @@ main {
   padding-right: 64px;
   padding-left: 64px;
   padding-bottom: 64px;
+}
+
+.body-content{
+  position: relative;
+  margin-right: 64px;
+  margin-left: 64px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 0px;
 }
 
 main img {
@@ -42,9 +56,10 @@ main img {
   width: flex;
 }
 .text-one {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 600;
 }
+
 .pale-white {
   color: #9caec0;
 }
@@ -55,15 +70,18 @@ form {
   background-color: #383b40;
   margin-right: 10px;
   border: none;
-  border-radius: 7px;
-  height: 50px;
-  width: 80%;
+  border-radius: 15px;
+  height: 40px;
+  min-width: 50%;
+  width: auto;
+  
 }
 .cta button {
   background-color: #ee6b41;
-  padding: 10px;
-  height: 50px;
-  border-radius: 7px;
+  padding: 10x;
+  height: 40px;
+  width: 125px;
+  border-radius: 15px;
   font-weight: bold;
 }
 .footer-cta {
@@ -73,22 +91,51 @@ form {
   align-items: center;
   text-align: center;
 }
+
 .footer-cta p {
   margin-top: 10px;
   font-weight: 600;
 }
-.connect-content,
-.learn-content {
-  height: 100vh;
-  padding: 10px;
+
+.copyright-cta {
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+
+.copyright-cta p {
+  font-size:12px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+.connect-content,
+.learn-content {
+  position: relative;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 0px;
+  /* padding-right: 64px;
+  padding-left: 64px;*/
+  padding-bottom: 64px;
+  text-align: left;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom:5%;
 }
 .simpleMap{
-  height: 50%;
+  height: 90vh;
+  max-height: 700px;
+  padding-left: 20vw;
 }
 
 .detailedMap {
-  height: 80%;
+  height: 100vh;
+  max-height: 900px;
 }

@@ -7,7 +7,7 @@ import detailedMap from './img/DETAILEDMAP.svg'
 function App() {
   return (
     <div className="App">
-      <section className = "connect">
+      <section className = "main">
         <main>
         <div className="main-content">
             <img src={bloop}  alt="" />
@@ -23,12 +23,12 @@ function App() {
               </form>
             </div>
         </div>
-      </main>
+        </main>
       </section>
-
+    <div className='body-content'>
       <section className="connect">
         <div className="connect-content">
-          <h2 className='text-one'>Connect <span className='pale-white'>your <br /> interests</span></h2>
+          <h2 className='text-one'>Connect <span className='pale-white' >your <br /> interests</span></h2>
           <img className='simpleMap' src={simpleMap} alt=""/>
         </div>
       </section>
@@ -39,16 +39,25 @@ function App() {
           <img className='detailedMap' src={detailedMap} alt=""/>
         </div>
       </section>
-      
+    </div>
       <div className='footer-cta'>
         <div className="cta">
             <form>
               <input type="text" placeholder="What's your email?"/>
               <button>DOWNLOAD</button>
             </form>
-            <p>Available for all desktop platforms</p>
+            <p className= 'main-text'>Available for all desktop platforms</p>
+            <p></p>
         </div>
       </div>
+      <div className='copyright-cta'>
+        <div className= 'copyright-text'>
+          <p > Copyright ©2022 Bloop Browser. </p>
+          <p >All rights reserved.</p>
+          <p></p>
+        </div>
+      </div>
+      
     </div>
   );
 }
