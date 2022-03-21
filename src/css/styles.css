@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #010101;
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
+}
+main {
+  text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.main-content {
+  position: relative;
+  margin-top: 5%;
+  margin-right: 0px;
+  margin-bottom:5%;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-bottom: 64px;
+}
+
+main img {
+  padding-top: 0px;
+  width: 50%;
+  height: auto;
+}
+.main-text {
+  margin: 20px;
+  width: flex;
+}
+.text-one {
+  font-size: 48px;
+  font-weight: 600;
+}
+.pale-white {
+  color: #9caec0;
+}
+form {
+  width: 700px;
+}
+.cta input {
+  background-color: #383b40;
+  margin-right: 10px;
+  border: none;
+  border-radius: 7px;
+  height: 50px;
+  width: 80%;
+}
+.cta button {
+  background-color: #ee6b41;
+  padding: 10px;
+  height: 50px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+.footer-cta {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-cta p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+.connect-content,
+.learn-content {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.simpleMap{
+  height: 50%;
+}
+
+.detailedMap {
+  height: 80%;
+}
