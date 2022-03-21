@@ -42,7 +42,7 @@ function App() {
 
       
       <section className="learn">
-      <Fade duration ={5000}>
+      <Fade duration ={3000}>
         <div className="learn-content">
           <h2 className='text-one'> <span className='pale-white'>Learn from your <br /></span>journey  <span className='pale-white'> and see <br /> your internet</span></h2>
           <img className='detailedMap' src={detailedMap} alt=""/>
