@@ -7,6 +7,7 @@ import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
+    
     <div className="App">
       <section className = "main">
       <Fade duration ={5000}>
@@ -74,6 +75,7 @@ function App() {
       </div>
       
     </div>
+    
   );
 }
 

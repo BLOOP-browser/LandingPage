@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
+
 
 body {
   background-color: #010101;
@@ -18,7 +19,6 @@ main {
   justify-content: center;
   padding: 10px;
   margin-top: 5%;
-  margin-right: 0px;
   margin-bottom:5%;
 }
 .main-content {
@@ -134,4 +134,80 @@ form {
 .detailedMap {
   height: 100vh;
   max-height: 900px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 500px){
+  * {
+    justify-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  main img {
+    width: 80%;
+    height: auto;
+  }
+
+  .main-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+
+  .body-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .main-text {
+    width: flex;
+  }
+  .text-one {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  form {
+    width: 100%;
+  }
+  .cta input {
+    background-color: #383b40;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .cta button {
+    background-color: #ee6b41;
+    padding: 5px;
+    height: 30px;
+    width: 50%;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+
 }
