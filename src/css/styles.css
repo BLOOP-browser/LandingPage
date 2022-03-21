@@ -29,10 +29,6 @@ main {
   width: auto;
   flex-direction: column;
   align-items: center;
-  padding-top: 0px;
-  padding-right: 64px;
-  padding-left: 64px;
-  padding-bottom: 64px;
 }
 
 .body-content{
