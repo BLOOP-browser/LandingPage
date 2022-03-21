@@ -125,13 +125,13 @@ form {
   margin-bottom:5%;
 }
 .simpleMap{
-  height: 80vh;
+  height: 70vh;
   max-height: 700px;
   padding-left: 20vw;
 }
 
 .detailedMap {
-  height: 90vh;
+  height: 80vh;
   max-height: 900px;
 }
 
