@@ -4,7 +4,6 @@
   margin: 0px;
 }
 
-
 body {
   background-color: #010101;
   color: #f1f1f1;
@@ -25,6 +24,7 @@ main {
   position: relative;
   margin-right: 64px;
   margin-left: 64px;
+
   display: flex;
   width: auto;
   flex-direction: column;
@@ -40,6 +40,7 @@ main {
   flex-direction: column;
   align-items: center; 
   padding-top: 0px;
+
 }
 
 main img {
@@ -87,12 +88,10 @@ form {
   align-items: center;
   text-align: center;
 }
-
 .footer-cta p {
   margin-top: 10px;
   font-weight: 600;
 }
-
 .copyright-cta {
   padding: 20px;
   display: flex;
@@ -211,4 +210,3 @@ form {
   }
 
 }
-

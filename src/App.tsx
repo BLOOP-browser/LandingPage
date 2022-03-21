@@ -1,9 +1,12 @@
 import React from 'react';
+
+import { SignUpForm } from './signup-form'; 
 import './css/styles.css'
 import bloop from "./img/BLOOPCENTER.svg"
 import simpleMap from './img/SIMPLEMAP1.svg'
 import detailedMap from './img/DETAILEDMAP.svg'
 import Fade from 'react-reveal/Fade'
+
 
 function App() {
   return (
@@ -50,8 +53,7 @@ function App() {
           <img className='detailedMap' src={detailedMap} alt=""/>
         </div>
         </Fade>
-      </section>
-      
+      </section>      
     </div>
 
       <div className='footer-cta'>
@@ -73,7 +75,6 @@ function App() {
           <p></p>
         </div>
       </div>
-      
     </div>
     
   );
