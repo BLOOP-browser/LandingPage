@@ -22,12 +22,7 @@ function App() {
               <h1 className='text-one'><b>A browser for the curious. <br /> <span className='pale-white'>Create your map of the internet</span></b></h1>
             </div>
       
-            <div className="cta">
-              <form>
-                <input type="text" placeholder="What's your email?"/>
-                <button type='button'>DOWNLOAD</button>
-              </form>
-            </div>
+            <SignUpForm/>
         </div>
         </main>
         </Fade>
@@ -58,14 +53,7 @@ function App() {
 
       <div className='footer-cta'>
       <Fade duration ={2000}>
-        <div className="cta">
-            <form>
-              <input type="text" placeholder="What's your email?"/>
-              <button>DOWNLOAD</button>
-            </form>
-            <p className= 'main-text'>Available for all desktop platforms</p>
-            <p></p>
-        </div>
+        <SignUpForm/>
       </Fade>
       </div>
       <div className='copyright-cta'>
