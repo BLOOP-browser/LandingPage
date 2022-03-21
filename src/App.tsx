@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 function App() {
   return (
     <div className="App">
-      <Fade duration={3000}>
+      <Fade duration={5000}>
         <main>
           <div className="main-content">
               <img src={bloop} alt=""/>
