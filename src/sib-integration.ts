@@ -13,14 +13,9 @@ export async function sendEmailTest(email_address: string) {
         'Content-Type': 'application/json',
         'api-key': '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'
       },
-      body: JSON.stringify({
-        sender: {name: 'Bloop', email: 'hi@bloop.co'},
-        to: [{email: 'osvaldo@armas.ai', name: 'Bloop Browser'}],
-        textContent: email_address + " Signed Up",
-        subject: email_address + " Signed Up"
-      })
+      body: JSON.stringify({updateEnabled: false, email: email_address})
     };
-    const response = await fetch('https://api.sendinblue.com/v3/smtp/email', options);
+    const response = await fetch('https://api.sendinblue.com/v3/contacts', options);
     console.log(response)
     return response
   }
