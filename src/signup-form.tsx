@@ -15,7 +15,8 @@ export class SignUpForm extends React.Component<any, IState> {
     handleChange(event: any) {
         this.setState({value: event.target.value})
     }
-    async onClick() {
+    async onClick(event: any) {
+        event.preventDefault();
         const response = await sendEmailTest(this.state.value)
         if (response) {
             this.setState({value: 'Thanks for Signing Up!'})
@@ -24,7 +25,11 @@ export class SignUpForm extends React.Component<any, IState> {
     render() {
         return (            
         <div className="cta">
-            <form>
+            <form action='#' onSubmit={(event) => {
+                this.onClick(event); 
+                return false
+            }
+            } >
               <input id='signupInput' type="text" placeholder="What's your email?" 
               value={this.state.value} onChange={this.handleChange}/>
               <button type='button' onClick={this.onClick}>DOWNLOAD</button>
