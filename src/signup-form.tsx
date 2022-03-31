@@ -32,7 +32,7 @@ export class SignUpForm extends React.Component<any, IState> {
             } >
               <input id='signupInput' type="text" placeholder="What's your email?" 
               value={this.state.value} onChange={this.handleChange}/>
-              <button type='button' onClick={this.onClick}>DOWNLOAD</button>
+              <button type='button' onClick={this.onClick}>Sign Up</button>
             </form>
           </div>
         )
