@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -18,13 +18,17 @@ main {
   justify-content: center;
   padding: 10px;
   margin-top: 5%;
-  margin-right: 0px;
-  margin-bottom: 5%;
+  margin-bottom:5%;
+}
+.main-content {
+  position: relative;
+  margin-right: 64px;
+  margin-left: 64px;
+
   display: flex;
   width: auto;
   flex-direction: column;
   align-items: center;
-  padding-top: 0px;
 }
 
 .body-content {
@@ -36,6 +40,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding-top: 0px;
+
 }
 
 main img {
@@ -56,7 +61,18 @@ main img {
   color: #9caec0;
 }
 form {
-  width: 700px;
+  width: fit-content;
+}
+.cta {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.twitter img {
+  width: 85%;
+  margin-left: 15px;
 }
 .cta input {
   background-color: #383b40;
@@ -83,12 +99,10 @@ form {
   align-items: center;
   text-align: center;
 }
-
 .footer-cta p {
   margin-top: 10px;
   font-weight: 600;
 }
-
 .copyright-cta {
   padding: 20px;
   display: flex;
@@ -119,18 +133,92 @@ form {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.simpleMap {
-  height: 50%;
+.simpleMap{
+  height: 70vh;
+  max-height: 700px;
+  padding-left: 20vw;
 }
 
 .detailedMap {
-  height: 100vh;
+  height: 80vh;
   max-height: 900px;
 }
 
-footer {
-  margin: 40px 0px 40px 0px;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
+@media screen and (max-width: 900px) and (min-width: 300px){
+  * {
+    justify-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  main img {
+    width: 80%;
+    height: auto;
+  }
+
+  .main-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+
+  .body-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .main-text {
+    width: flex;
+  }
+  .text-one {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  form {
+    width: 100%;
+  }
+  .cta input {
+    background-color: #383b40;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 70%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .cta button {
+    background-color: #ee6b41;
+    padding: 5px;
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  .twitter img {
+    margin-top: 20px;
+  }
 }

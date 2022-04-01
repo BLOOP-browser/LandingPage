@@ -11,3 +11,5 @@ declare module "*.svg" {
   export default _default;
 }
 declare module 'react-reveal/Fade';
+
+ 
