@@ -1,6 +1,5 @@
 import React from 'react'
 import { sendEmailTest } from './sib-integration'
-import twitterIcon from './img/twitter.svg'
 type IState = {
     value: string;
 }
@@ -34,9 +33,6 @@ export class SignUpForm extends React.Component<any, IState> {
               value={this.state.value} onChange={this.handleChange}/>
               <button type='button' onClick={this.onClick}>Sign Up</button>
             </form>
-            <a className='twitter' target="blank" href="https://twitter.com/getbloop">
-                <img src={twitterIcon} alt="Bloop's Twitter" />
-            </a>
           </div>
         )
     }

@@ -70,9 +70,18 @@ form {
   justify-content: center;
   flex-wrap: wrap;
 }
-.twitter img {
-  width: 85%;
-  margin-left: 15px;
+.twitter{
+  margin-top: 20px;
+}
+.twitterhandle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+}
+.twitter-icon{
+  width: 30px;
+  margin-right: 15px;
 }
 .cta input {
   background-color: #383b40;
@@ -191,11 +200,12 @@ form {
   }
 
   .main-text {
-    width: flex;
+    width: 100%;
   }
   .text-one {
     font-size: 36px;
     font-weight: 600;
+    text-align: left;
   }
 
   form {
@@ -206,7 +216,7 @@ form {
     border: none;
     border-radius: 15px;
     height: 40px;
-    width: 70%;
+    width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
   }
@@ -214,11 +224,12 @@ form {
     background-color: #ee6b41;
     padding: 5px;
     height: 40px;
-    width: 70%;
+    width: 100%;
     border-radius: 15px;
     font-weight: bold;
   }
-  .twitter img {
-    margin-top: 20px;
+  .twitter-icon{
+    width: 25%;
+    margin-right: 0px;
   }
 }
