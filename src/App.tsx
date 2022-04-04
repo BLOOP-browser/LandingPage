@@ -6,6 +6,7 @@ import bloop from "./img/BLOOPCENTER.svg"
 import simpleMap from './img/SIMPLEMAP1.svg'
 import detailedMap from './img/DETAILEDMAP.svg'
 import Fade from 'react-reveal/Fade'
+import twitterIcon from './img/twitter.svg'
 
 
 function App() {
@@ -21,8 +22,13 @@ function App() {
             <div className="main-text">
               <h1 className='text-one'><b>A browser for the curious. <br /> <span className='pale-white'>Create your map of the internet</span></b></h1>
             </div>
-      
             <SignUpForm/>
+            <a className='twitter' target="blank" href="https://twitter.com/getbloop">
+              <div className="twitterhandle">
+                <img className='twitter-icon' src={twitterIcon} alt="Bloop's Twitter" />
+                <h3>Follow us to get updates</h3>
+              </div>
+            </a>
         </div>
         </main>
         </Fade>

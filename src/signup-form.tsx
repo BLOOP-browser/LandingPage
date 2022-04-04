@@ -1,6 +1,5 @@
 import React from 'react'
 import { sendEmailTest } from './sib-integration'
-
 type IState = {
     value: string;
 }
