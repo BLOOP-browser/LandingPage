@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SignUpForm } from './signup-form'; 
 import './css/styles.css'
-import bloop from "./img/BLOOPCENTER.svg"
+import bloopLogo from "./img/BLOOPLOGO.svg"
 import simpleMap from './img/SIMPLEMAP1.svg'
 import detailedMap from './img/DETAILEDMAP.svg'
 import Fade from 'react-reveal/Fade'
@@ -13,48 +13,30 @@ function App() {
   return (
     
     <div className="App">
-      <section className = "main">
-      <Fade duration ={5000}>
+      {/* <Fade duration ={5000}> */}
+        <header>
+              <img className='logo' src={bloopLogo}  alt="Bloop Browser" />
+        </header>
         <main>
-        <div className="main-content">
-            <img src={bloop}  alt="" />
-      
-            <div className="main-text">
-              <h1 className='text-one'><b>A browser for the curious. <br /> <span className='pale-white'>Create your map of the internet</span></b></h1>
-            </div>
-            <SignUpForm/>
-            <a className='twitter' target="blank" href="https://twitter.com/getbloop">
-              <div className="twitterhandle">
-                <img className='twitter-icon' src={twitterIcon} alt="Bloop's Twitter" />
-                <h3>Follow us to get updates</h3>
+          <div className="main-content">
+        
+              <div className="main-text">
+                <h1>A browser for the curious</h1>
+                <p>Create your map of the internet.</p>
               </div>
-            </a>
-        </div>
+              <SignUpForm/>
+              <a className='twitter' target="blank" href="https://twitter.com/getbloop">
+                <div className="twitterhandle">
+                  <img className='twitter-icon' src={twitterIcon} alt="Bloop's Twitter" />
+                  <h3>Follow us on Twitter</h3>
+                </div>
+              </a>
+          </div>
         </main>
-        </Fade>
-      </section>
+        {/* </Fade> */}
 
     <div className='body-content'>
     
-      <section className="connect">
-      <Fade duration ={5000}>
-        <div className="connect-content">
-          <h2 className='text-one'>Connect <span className='pale-white' >your <br /> interests</span></h2>
-          <img className='simpleMap' src={simpleMap} alt=""/>
-        </div>
-        </Fade>
-      </section>
-      
-
-      
-      <section className="learn">
-      <Fade duration ={3000}>
-        <div className="learn-content">
-          <h2 className='text-one'> <span className='pale-white'>Learn from your <br /></span>journey  <span className='pale-white'> and see <br /> your internet</span></h2>
-          <img className='detailedMap' src={detailedMap} alt=""/>
-        </div>
-        </Fade>
-      </section>      
     </div>
 
       <div className='footer-cta'>
