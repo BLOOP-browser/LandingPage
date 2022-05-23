@@ -55,9 +55,9 @@ main {
   align-items: center;
   padding-top: 0px;
 }
-/* .main-text {
-  margin: 100px 0px 50px 0px;
-} */
+.main-text {
+  margin-bottom: 55px;
+}
 .main-text h1 {
   width: 692px;
   font-weight: 700;
@@ -71,20 +71,19 @@ main {
   font-size: 32px;
   line-height: 39px;
   color: #BCC7F1;
-  margin-bottom: 55px;
 }
 form {
   width: fit-content;
-}
-.cta {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   margin-bottom: 20px;
+  }
+
+.cta {
+  /* border: 1px solid red; */
 }
-.twitter{
+  .twitter{
   margin-top: 20px;
 }
 .twitterhandle {
@@ -92,7 +91,7 @@ form {
   align-items: center;
   justify-content: space-between;
   font-size: larger;
-  color: #9CAEC0;
+  color: #727877;
 }
 .twitter-icon{
   width: 20px;
@@ -149,8 +148,6 @@ form {
   flex-direction: column;
   align-content: center;
   padding-top: 0px;
-  /* padding-right: 64px;
-  padding-left: 64px;*/
   padding-bottom: 64px;
   text-align: left;
   justify-content: center;
@@ -170,16 +167,64 @@ form {
 
 @media screen and (max-width: 768px){
   header {
-    width: 100vw;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .logo{
+    width: 206px;
+    height: 56px;
   }
   .main-content{
     margin: 0;
+  }
+  .main-text{
+    margin-top: 60px;
   }
   .main-text h1{
     font-size: 60px;
   }
   .main-text p {
     font-size: 24px;
+  }
+  main {
+    padding: 0;
+    background-size: 716px;
+    background-position: center;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  main{
+    background-image: none;
+    text-align: left;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main-text {
+    margin-bottom: 20px;
+  }
+  .main-text h1{
+    text-align: left;
+    width: 223px;
+    margin-bottom: 20px;
+  }
+  .main-text p {
+    font-size: 20px;
+  }
+  .main-content{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  form {
+    /* padding: 10px; */
+    width: 280px;
+  }
+  .twitter-icon{
+    margin-right: 15px;
   }
 }
 /* @media screen and (max-width: 900px) and (min-width: 300px){
