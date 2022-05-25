@@ -9,6 +9,9 @@ import twitterIcon from './img/twitter.svg'
 import bloopExample from './img/CURRENT LOC.svg'
 import editImg from './img/EDIT.svg'
 import exportImg from './img/EXPORT.svg'
+import filecoin from './img/filecoin.svg'
+import techstars from './img/techstars.svg'
+import protocolLabs from './img/protocolLabs.svg'
 
 function App() {
   return (
@@ -74,15 +77,27 @@ function App() {
       </div>
 
       <div className='footer-cta'>
-      <Fade duration ={2000}>
-        <SignUpForm/>
-      </Fade>
+        <Fade duration ={2000}>
+          <div className="footer-cta-content">
+            <h3>Get access to the BLOOP private beta</h3>
+            <SignUpForm/>
+          </div>
+        </Fade>
+      </div>
+      <div className="powered">
+        <div className="powered-container">
+          <p>Powered by</p>
+          <div className="brands">
+            <img src={techstars} alt="Techstars bloop" />
+            <img src={filecoin} alt="Filecoin bloop" />
+            <img src={protocolLabs} alt="ProtocolLabs bloop" />
+          </div>
+        </div>
       </div>
       <div className='copyright-cta'>
         <div className= 'copyright-text'>
-          <p > Copyright ©2022 Bloop Browser. </p>
-          <p >All rights reserved.</p>
-          <p></p>
+          <p id='links'>Email <a href="mailto:hi@getbloop.co">hi@getbloop.co</a> or DM <a href="https://twitter.com/getbloop" target="_blank" rel='noreferrer'>@getBLOOP</a> on Twitter to try the private beta</p>
+          <p id='copyright'>Copyright BLOOP 2022</p>
         </div>
       </div>
     </div>
