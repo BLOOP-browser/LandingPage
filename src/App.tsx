@@ -3,11 +3,12 @@ import React from 'react';
 import { SignUpForm } from './signup-form'; 
 import './css/styles.css'
 import bloopLogo from "./img/BLOOPLOGO.svg"
-import simpleMap from './img/SIMPLEMAP1.svg'
-import detailedMap from './img/DETAILEDMAP.svg'
+import { Slider } from './slider';
 import Fade from 'react-reveal/Fade'
 import twitterIcon from './img/twitter.svg'
-
+import bloopExample from './img/CURRENT LOC.svg'
+import editImg from './img/EDIT.svg'
+import exportImg from './img/EXPORT.svg'
 
 function App() {
   return (
@@ -35,9 +36,42 @@ function App() {
         </main>
         {/* </Fade> */}
 
-    <div className='body-content'>
-    
-    </div>
+      <Slider/>
+
+      <div className="connect-copy">
+        <div className="connect-copy-content">
+          <div>
+            <p>Connect your interests.</p>
+            <p>See your internet</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="actions">
+        <div className="actions-container">
+          <div className="action-card">
+            <img id='createImg' src={bloopExample} alt="BLOOP MAP" />
+            <div className="action-copy">
+              <h3>Create</h3>
+              <p>Browse without worrying about saving resources. </p>
+            </div>
+          </div>
+          <div className="action-card">
+            <img id='editImg' src={editImg} alt="BLOOP MAP" />
+            <div className="action-copy">
+              <h3>Edit</h3>
+              <p>Save and reload your browsing sessions locally. </p>
+            </div>
+          </div>
+          <div className="action-card">
+            <img src={exportImg} alt="BLOOP MAP" />
+            <div className="action-copy">
+              <h3>Share</h3>
+              <p>Share your sites and notes in BLOOP, or export elsewhere</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className='footer-cta'>
       <Fade duration ={2000}>

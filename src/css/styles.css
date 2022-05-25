@@ -139,33 +139,85 @@ form {
   font-weight: 300;
   text-align: center;
 }
-
-.connect-content,
-.learn-content {
-  position: relative;
+.connect-copy{
+  width: 100%;
   display: flex;
-  width: auto;
-  flex-direction: column;
-  align-content: center;
-  padding-top: 0px;
-  padding-bottom: 64px;
-  text-align: left;
+  align-items: center;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 5%;
 }
-.simpleMap{
-  height: 70vh;
-  max-height: 700px;
-  padding-left: 20vw;
+.connect-copy-content{
+  height: 200px;
+  width: 700px;
+  background-image: url("Ellipse 1155.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect-copy p{
+  font-weight: 700;
+  font-size: 60px;
+}
+.actions {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.detailedMap {
-  height: 80vh;
-  max-height: 900px;
+.actions-container {
+  /* max-width: 80%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; */
 }
+#createImg{
+  height: 145px;
+}
+.action-card {
+  background-color: #181E1A;
+  height: 280px;
+  width: 100%;
+  /* min-width: 330px; */
+  max-width: 330px;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.action-copy{
+  
+  /* align-self: flex-end; */
+}
+#editImg{
+  margin-top: 40px;
+}
+.action-copy h3 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.action-copy p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #727877;
+}
+
 
 @media screen and (max-width: 768px){
+
+  .connect-copy p {
+    font-size: 36px;
+  }
   header {
     margin-top: 40px;
     margin-bottom: 0;
@@ -193,6 +245,21 @@ form {
   }
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .actions-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .action-card {
+    margin-bottom: 20px;
+  }
+  .connect-copy-content{
+    background-size: 300px;
+    background-image: url("Ellipse 1154.svg");
+  }
+  .connect-copy p {
+    font-size: 24px;
+  }
   header {
     justify-content: flex-start;
     padding: 10px;
@@ -221,7 +288,8 @@ form {
   }
   form {
     /* padding: 10px; */
-    width: 280px;
+    /* width: 280px; */
+    width: 90%;
   }
   .twitter-icon{
     margin-right: 15px;

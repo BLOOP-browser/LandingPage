@@ -1,0 +1,60 @@
+
+
+.orb:hover {
+  transform: scale(1.2);
+  opacity: .5;
+  cursor: pointer;
+}
+
+.marquee {
+  height: 550px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0px auto;
+}
+
+.marquee--inner {
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee--inner:hover {
+  animation-play-state: paused;
+}
+
+/*.half {
+  float: left;
+  width: 10%;
+}*/
+
+span {
+  display: flex;
+  float: left;
+  width: 50%;
+}
+
+span div {
+  margin: 0 24px;
+  transition: all .2s ease-out;
+
+}
+
+span div:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  span div img{
+    width: 100%;
+  }
+}
