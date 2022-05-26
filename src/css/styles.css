@@ -1,7 +1,12 @@
 * {
   box-sizing: border-box;
+<<<<<<< HEAD
   padding: 0;
   margin: 0;
+=======
+  padding: 0px;
+  margin: 0px;
+>>>>>>> sam/integrateReact
 }
 
 body {
@@ -9,12 +14,33 @@ body {
   color: #f1f1f1;
   font-family: "Inter", sans-serif;
 }
+<<<<<<< HEAD
 main {
+=======
+header {
+  margin: 80px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 250px;
+  height: 68px;
+}
+
+main {
+  background-image: url("Group 916.svg");
+  height: 600px;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+>>>>>>> sam/integrateReact
   text-align: center;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   height: 100vh;
 }
 main img {
@@ -33,3 +59,451 @@ main img {
   right: 0;
   width: 60%;
 }
+=======
+  padding: 10px;
+  /* margin-top: 5%; */
+  margin-bottom:5%;
+}
+.main-content {
+  position: relative;
+  margin-right: 64px;
+  margin-left: 64px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-content {
+  position: relative;
+  margin-right: 64px;
+  margin-left: 64px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0px;
+}
+.main-text {
+  margin-bottom: 55px;
+}
+.main-text h1 {
+  width: 692px;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 86.52%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.main-text p {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #BCC7F1;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+  .twitter{
+  margin-top: 20px;
+}
+.twitterhandle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+  color: #727877;
+}
+.twitterhandle h3 {
+  font-size: 16px;
+}
+.twitter-icon{
+  width: 20px;
+  margin-right: 35px;
+}
+.cta input {
+  background-color: #181E1A;
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px;
+  height: 40px;
+  min-width: 50%;
+  width: auto;
+}
+.cta button {
+  background-color: #ee6b41;
+  padding: 10x;
+  height: 40px;
+  width: 125px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+.footer-cta {
+  margin: 70px 0px 80px 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-cta h3 {
+  font-size: 24px;
+  color: #BCC7F1;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+.footer-cta-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.copyright-cta {
+  margin-top: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copyright-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.copyright-cta p {
+  font-size: 16px;
+  color: #727877;
+}
+#copyright {
+  margin-left: 100px;
+  font-weight: 400;
+}
+#links {
+  font-weight: 700;
+}
+#links a {
+  color: #fff;
+}
+.connect-copy{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect-copy-content{
+  height: 200px;
+  width: 700px;
+  background-image: url("Ellipse 1155.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connect-copy p{
+  font-weight: 700;
+  font-size: 60px;
+}
+.actions {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actions-container {
+  /* max-width: 80%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; */
+}
+#createImg{
+  height: 145px;
+}
+.action-card {
+  background-color: #181E1A;
+  height: 280px;
+  width: 100%;
+  /* min-width: 330px; */
+  max-width: 330px;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.action-copy{
+  
+  /* align-self: flex-end; */
+}
+#editImg{
+  margin-top: 40px;
+}
+.action-copy h3 {
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.action-copy p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #727877;
+}
+
+.powered-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.powered-container p{
+  font-size: 16px;
+  font-weight: 700;
+  color: #727877;
+}
+.brands {
+  display: flex;
+}
+
+@media screen and (max-width: 768px){
+  #editImg{
+    margin-top: 20px;
+  }
+  #createImg {
+    height: auto;
+  }
+  #copyright {
+    margin-left: 60px;
+  }
+  .copyright-cta p {
+    font-size: 13px;
+  }
+  .action-copy p {
+    font-size: 12px;
+  }
+  .action-copy h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .action-card{
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-height: 232px;
+    padding: 10px 30px;
+  }
+  .actions-container {
+    column-gap: 10px;
+  }
+  .actions{
+    padding: 0 47px;
+  }
+  .connect-copy p {
+    font-size: 36px;
+  }
+  header {
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .logo{
+    width: 206px;
+    height: 56px;
+  }
+  .main-content{
+    margin: 0;
+  }
+  .main-text{
+    margin-top: 60px;
+  }
+  .main-text h1{
+    font-size: 60px;
+  }
+  .main-text p {
+    font-size: 24px;
+  }
+  main {
+    padding: 0;
+    background-size: 716px;
+    background-position: center;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #copyright{
+    margin-left: 0;
+  }
+  #links {
+    margin-bottom: 20px;
+  }
+  .copyright-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  #createCard{
+    padding-top: 13px;
+  }
+  .action-card {
+    display: flex;
+    padding: 27px 30px;
+  }
+  .cta input {
+    font-size: 13px;
+  }
+  .cta button {
+    font-size: 13px;
+  }
+  .footer-cta {
+    padding: 5px;
+  }
+  .footer-cta h3 {
+    font-size: 20px;  
+  }
+  .brands {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .actions-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .action-card {
+    margin-bottom: 20px;
+  }
+  .connect-copy-content{
+    background-size: 300px;
+    background-image: url("Ellipse 1154.svg");
+  }
+  .connect-copy p {
+    font-size: 24px;
+  }
+  header {
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  main{
+    background-image: none;
+    text-align: left;
+    padding: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main-text {
+    margin-bottom: 20px;
+  }
+  .main-text h1{
+    text-align: left;
+    width: 223px;
+    margin-bottom: 20px;
+  }
+  .main-text p {
+    font-size: 20px;
+    width: 239px;
+    line-height: 24.2px;
+  }
+  .main-content{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  form {
+    /* padding: 10px; */
+    /* width: 280px; */
+    max-width: 100%;
+    width: 284px;
+  }
+  .twitter-icon{
+    margin-right: 15px;
+  }
+}
+/* @media screen and (max-width: 900px) and (min-width: 300px){
+  * {
+    justify-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+  }
+
+  main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  main img {
+    width: 80%;
+    height: auto;
+  }
+
+  .main-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+  }
+
+  .body-content{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 0px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .main-text {
+    width: 100%;
+  }
+  .text-one {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  form {
+    width: 100%;
+  }
+  .cta input {
+    background-color: #383b40;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .cta button {
+    background-color: #ee6b41;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  .twitter-icon{
+    width: 25%;
+    margin-right: 0px;
+  }
+} */
+>>>>>>> sam/integrateReact
