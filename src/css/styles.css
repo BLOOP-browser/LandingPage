@@ -73,15 +73,10 @@ main {
   color: #BCC7F1;
 }
 form {
-  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  }
-
-.cta {
-  /* border: 1px solid red; */
 }
   .twitter{
   margin-top: 20px;
@@ -92,6 +87,9 @@ form {
   justify-content: space-between;
   font-size: larger;
   color: #727877;
+}
+.twitterhandle h3 {
+  font-size: 16px;
 }
 .twitter-icon{
   width: 20px;
@@ -145,6 +143,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .copyright-cta p {
@@ -249,7 +248,39 @@ form {
 }
 
 @media screen and (max-width: 768px){
-
+  #editImg{
+    margin-top: 20px;
+  }
+  #createImg {
+    height: auto;
+  }
+  #copyright {
+    margin-left: 60px;
+  }
+  .copyright-cta p {
+    font-size: 13px;
+  }
+  .action-copy p {
+    font-size: 12px;
+  }
+  .action-copy h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .action-card{
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-height: 232px;
+    padding: 10px 30px;
+  }
+  .actions-container {
+    column-gap: 10px;
+  }
+  .actions{
+    padding: 0 47px;
+  }
   .connect-copy p {
     font-size: 36px;
   }
@@ -280,6 +311,39 @@ form {
   }
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #copyright{
+    margin-left: 0;
+  }
+  #links {
+    margin-bottom: 20px;
+  }
+  .copyright-text {
+    flex-direction: column;
+    text-align: center;
+  }
+  #createCard{
+    padding-top: 13px;
+  }
+  .action-card {
+    display: flex;
+    padding: 27px 30px;
+  }
+  .cta input {
+    font-size: 13px;
+  }
+  .cta button {
+    font-size: 13px;
+  }
+  .footer-cta {
+    padding: 5px;
+  }
+  .footer-cta h3 {
+    font-size: 20px;  
+  }
+  .brands {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .actions-container{
     display: flex;
     justify-content: center;
@@ -316,15 +380,18 @@ form {
   }
   .main-text p {
     font-size: 20px;
+    width: 239px;
+    line-height: 24.2px;
   }
   .main-content{
-    justify-content: flex-start;
+    flex-direction: column;
     align-items: flex-start;
   }
   form {
     /* padding: 10px; */
     /* width: 280px; */
-    width: 90%;
+    max-width: 100%;
+    width: 284px;
   }
   .twitter-icon{
     margin-right: 15px;

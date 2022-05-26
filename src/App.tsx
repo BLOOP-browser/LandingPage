@@ -6,7 +6,7 @@ import bloopLogo from "./img/BLOOPLOGO.svg"
 import { Slider } from './slider';
 import Fade from 'react-reveal/Fade'
 import twitterIcon from './img/twitter.svg'
-import bloopExample from './img/CURRENT LOC.svg'
+import bloopExample from './img/BloopExample.svg'
 import editImg from './img/EDIT.svg'
 import exportImg from './img/EXPORT.svg'
 import filecoin from './img/filecoin.svg'
@@ -52,7 +52,7 @@ function App() {
 
       <div className="actions">
         <div className="actions-container">
-          <div className="action-card">
+          <div className="action-card" id='createCard'>
             <img id='createImg' src={bloopExample} alt="BLOOP MAP" />
             <div className="action-copy">
               <h3>Create</h3>

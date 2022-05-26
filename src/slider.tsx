@@ -7,32 +7,123 @@ import UI3 from './img/NEWUIVISION3.png'
 export class Slider extends React.Component {
   render(){
       return(
-        <div className="marquee">
-          <div className="marquee--inner">
-            <span>
-              <div className="">
-                <img src={UI1} alt="" />
-              </div>
-              <div className="">
-                <img src={UI2} alt="" />        
-              </div>
-              <div className="">
-                <img src={UI3} alt="" />
-              </div>
-            </span>
-            <span>
-            <div className="">
-                <img src={UI1} alt="" />
-              </div>
-              <div className="">
-                <img src={UI2} alt="" />        
-              </div>
-              <div className="">
-                <img src={UI3} alt="" />
-              </div>
-            </span>
-          </div>
+        <section className="bg-cream wrap-browser-iframes">
+          <div className="section-browser-iframes">
+            <img
+              className="image-border"
+              src={UI1}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI3}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI2}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            {/* <img
+              className="image-border"
+              src={UI1}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI3}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI2}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI3}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI1}
+              width="500.265"
+              height="338.345"
+              alt=""
+            /> */}
+
+            <img
+            className="image-border"
+            src={UI1}
+            width="500.265"
+            height="338.345"
+            alt=""
+            />
+            <img
+              className="image-border"
+              src={UI3}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI2}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            {/* <img
+              className="image-border"
+              src={UI1}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI3}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI2}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI3}
+              width="500.265"
+              height="338.345"
+              alt=""
+            />
+            <img
+              className="image-border"
+              src={UI1}
+              width="500.265"
+              height="338.345"
+              alt=""
+            /> */}
         </div>
+        </section>
       )
   }
 }
