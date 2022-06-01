@@ -1,12 +1,7 @@
 * {
   box-sizing: border-box;
-<<<<<<< HEAD
-  padding: 0;
-  margin: 0;
-=======
   padding: 0px;
   margin: 0px;
->>>>>>> sam/integrateReact
 }
 
 body {
@@ -14,9 +9,6 @@ body {
   color: #f1f1f1;
   font-family: "Inter", sans-serif;
 }
-<<<<<<< HEAD
-main {
-=======
 header {
   margin: 80px 0px 10px 0px;
   display: flex;
@@ -34,32 +26,11 @@ main {
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
->>>>>>> sam/integrateReact
   text-align: center;
   /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-  height: 100vh;
-}
-main img {
-  width: 70%;
-}
-.main-text {
-  margin: 20px;
-}
-.connect-content {
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: center;
-}
-.connect-content img {
-  position: relative;
-  right: 0;
-  width: 60%;
-}
-=======
   padding: 10px;
   /* margin-top: 5%; */
   margin-bottom:5%;
@@ -142,7 +113,7 @@ form {
   font-weight: bold;
 }
 .footer-cta {
-  margin: 70px 0px 80px 0px;
+  margin: 80px 0px 80px 0px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -161,7 +132,7 @@ form {
   align-items: center;
 }
 .copyright-cta {
-  margin-top: 40px;
+  margin-top: 80px;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -212,6 +183,7 @@ form {
   font-size: 60px;
 }
 .actions {
+  padding: 20px;
   margin-top: 100px;
   display: flex;
   align-items: center;
@@ -273,6 +245,8 @@ form {
   color: #727877;
 }
 .brands {
+  flex-wrap: wrap;
+  align-items: center;
   display: flex;
 }
 
@@ -339,7 +313,7 @@ form {
     background-position: center;
   }
 }
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   #copyright{
     margin-left: 0;
   }
@@ -380,6 +354,9 @@ form {
   }
   .action-card {
     margin-bottom: 20px;
+  }
+  .actions {
+    margin-top: 80px;
   }
   .connect-copy-content{
     background-size: 300px;
@@ -426,84 +403,61 @@ form {
     margin-right: 15px;
   }
 }
-/* @media screen and (max-width: 900px) and (min-width: 300px){
-  * {
-    justify-items: center;
-    box-sizing: border-box;
-    padding: 5px;
-    margin: 0px;
-  }
-
-  main {
-    position: relative;
-    width: 100%;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .copyright-text {
+    flex-direction: column;
     text-align: center;
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin-right: 0px;
-    margin-left: 0px;
   }
+  main {
+    background-size: 800px;
+  }
+  #copyright{
+    margin-left: 10px;
+  }
+  .copyright-cta {
+    padding: 30px 15px;
+  }
+}
 
-  main img {
-    width: 80%;
-    height: auto;
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  #editImg{
+    padding-top: 33px;
   }
-
-  .main-content {
-    position: relative;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    margin: 5%;
+  .connect-copy-content{
+    background-size: 300px;
+    background-image: url("Ellipse 1154.svg");
   }
-
-  .body-content{
-    position: relative;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center; 
-    padding-top: 0px;
-    margin-right: 5%;
-    margin-left: 5%;
+  .connect-copy-content{
+    width: 400px;
   }
-
-  .main-text {
-    width: 100%;
+  .main-text h1 {
+    width: 400px;
   }
-  .text-one {
-    font-size: 36px;
-    font-weight: 600;
-    text-align: left;
+  main{
+    background-size: 100%;
   }
-
-  form {
-    width: 100%;
+  #copyright{
+    margin-left: 0;
   }
-  .cta input {
-    background-color: #383b40;
-    border: none;
-    border-radius: 15px;
-    height: 40px;
-    width: 100%;
-    margin-right: 0;
+  #links {
     margin-bottom: 20px;
   }
-  .cta button {
-    background-color: #ee6b41;
-    padding: 5px;
-    height: 40px;
-    width: 100%;
-    border-radius: 15px;
-    font-weight: bold;
+  .copyright-text {
+    flex-direction: column;
+    text-align: center;
   }
-  .twitter-icon{
-    width: 25%;
-    margin-right: 0px;
+  .brands {
+    flex-wrap: wrap;
+    justify-content: center;
   }
-} */
->>>>>>> sam/integrateReact
+  .actions-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .action-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
