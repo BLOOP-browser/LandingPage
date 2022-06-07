@@ -55,22 +55,22 @@ function App() {
           <div className="action-card" id='createCard'>
             <img id='createImg' src={bloopExample} alt="BLOOP MAP" />
             <div className="action-copy">
-              <h3>Create</h3>
-              <p>Browse without worrying about saving resources. </p>
+              <h3>Capture</h3>
+              <p>Browse without worrying about losing resources</p>
             </div>
           </div>
           <div className="action-card">
             <img id='editImg' src={editImg} alt="BLOOP MAP" />
             <div className="action-copy">
               <h3>Edit</h3>
-              <p>Save and reload your browsing sessions locally. </p>
+              <p>Curate and save your digital journey</p>
             </div>
           </div>
           <div className="action-card">
             <img src={exportImg} alt="BLOOP MAP" />
             <div className="action-copy">
-              <h3>Share</h3>
-              <p>Share your sites and notes in BLOOP, or export elsewhere</p>
+              <h3>Invite</h3>
+              <p>Share your story and invite others to create new ones</p>
             </div>
           </div>
         </div>

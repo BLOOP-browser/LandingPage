@@ -207,7 +207,6 @@ form {
   background-color: #181E1A;
   height: 280px;
   width: 100%;
-  /* min-width: 330px; */
   max-width: 330px;
   border-radius: 36px;
   display: flex;
@@ -252,7 +251,7 @@ form {
 
 @media screen and (max-width: 768px){
   #editImg{
-    margin-top: 20px;
+    margin-top: 34px;
   }
   #createImg {
     height: auto;
@@ -330,6 +329,8 @@ form {
   .action-card {
     display: flex;
     padding: 27px 30px;
+    min-width: 267px;
+    max-width: 267px;
   }
   .cta input {
     font-size: 13px;
@@ -353,7 +354,7 @@ form {
     flex-wrap: wrap;
   }
   .action-card {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .actions {
     margin-top: 80px;
