@@ -421,8 +421,12 @@ form {
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
+  .action-copy {
+    min-width: 270px;
+  }
   #editImg{
-    padding-top: 33px;
+    margin: 10px;
+    /* padding-top: 33px; */
   }
   .connect-copy-content{
     background-size: 300px;
@@ -458,7 +462,9 @@ form {
   }
   .action-card {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    /* align-items: center; */
     margin-bottom: 20px;
   }
 }
