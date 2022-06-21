@@ -1,0 +1,47 @@
+.wrap-browser-iframes {
+  padding: 32px 0;
+  margin: 0;
+  overflow-x: hidden;
+  transform: translateZ(0);
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 480px) {
+  .section-browser-iframes {
+    transform: scale(0.75);
+  }
+}
+.section-browser-iframes {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 500.265px;
+  grid-gap: 80px;
+  position: relative;
+  animation: browser 60s linear infinite;
+  margin-left: -72px;
+}
+.section-browser-iframes img {
+  width: 500.265px;
+    aspect-ratio: auto 500.265 / 338.345;
+    height: 338.345px;
+}
+@media (prefers-reduced-motion) {
+  .section-browser-iframes {
+    animation: none;
+  }
+}
+
+@keyframes browser {
+  0% {
+    margin-left: -80px;
+  }
+
+  100% {
+    margin-left: -1874px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .wrap-browser-iframes {
+    margin-bottom: 80px;
+    padding: 0;
+  }
+}
