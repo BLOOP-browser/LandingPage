@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Ellipse1154" width="264" height="133" viewBox="0 0 264 133" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M261.133 9.98421C262.613 13.3643 261.422 18.3671 256.545 25.0315C251.765 31.5618 243.864 39.0918 233.359 47.1379C212.374 63.2107 181.366 81.0667 145.311 96.85C109.256 112.633 75.1024 123.303 49.058 127.817C36.02 130.077 25.1276 130.774 17.0875 129.856C8.88222 128.918 4.39908 126.399 2.91941 123.019C1.43973 119.639 2.63013 114.636 7.50763 107.972C12.2869 101.441 20.1882 93.9115 30.6933 85.8654C51.678 69.7926 82.686 51.9366 118.741 36.1533C154.796 20.37 188.95 9.70078 214.994 5.18622C228.032 2.92619 238.925 2.22906 246.965 3.14758C255.17 4.08498 259.653 6.60408 261.133 9.98421Z" stroke="url(#paint0_linear_1020_12193)" stroke-width="4" stroke-dasharray="0,0,153.46492187500002,446.00742919921873"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="2.5s" values="0,0,153.46492187500002,446.00742919921873; 
+          0,446.00742919921873,153.46492187500002,0; 
+          153.46492187500002,446.00742919921873,0,0" keyTimes="0; 0.744; 1"></animate></path>
+<defs>
+<linearGradient id="paint0_linear_1020_12193" x1="259.514" y1="1.29833" x2="-2.36396" y2="115.937" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EE6B41"></stop>
+<stop offset="0.270833" stop-color="#DE8D7E" stop-opacity="0.497976"></stop>
+<stop offset="0.46935" stop-color="#FCBDB6" stop-opacity="0.13"></stop>
+<stop offset="0.50524" stop-color="#FEA9AD" stop-opacity="0.13"></stop>
+<stop offset="0.770833" stop-color="#BF70BC" stop-opacity="0.597027"></stop>
+<stop offset="1" stop-color="#213C9C"></stop>
+</linearGradient>
+</defs>
+<setting>{"type":"loader","speed":20,"random":1,"shift":1,"size":1,"rupture":16}</setting></svg>
