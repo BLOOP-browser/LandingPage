@@ -25,8 +25,8 @@ function App() {
           <div className="main-content">
         
               <div className="main-text">
-                <h1>A browser for the curious</h1>
-                <p>Create your map of the internet.</p>
+                <h1>Browse with other people</h1>
+                <p>Remember and share effortlessly</p>
               </div>
               <SignUpForm/>
               <a className='twitter' target="blank" href="https://twitter.com/getbloop">
@@ -44,8 +44,8 @@ function App() {
       <div className="connect-copy">
         <div className="connect-copy-content">
           <div>
-            <p>Connect your interests.</p>
-            <p>See your internet</p>
+            <p>Your browsing and ideas visualized.</p>
+            <p>Without any manual tagging</p>
           </div>
         </div>
       </div>
