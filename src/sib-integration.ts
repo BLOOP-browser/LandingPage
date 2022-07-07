@@ -3,7 +3,6 @@
 // let apiInstance = new SibApiV3Sdk.EmailCampaignsApi();
 
 // let apiKey = apiInstance.authentications['apiKey'];
-const key = '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';
 export async function sendEmailTest(email_address: string) {
   if (validateEmail(email_address)) {
     const options = {
@@ -11,7 +10,7 @@ export async function sendEmailTest(email_address: string) {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        'api-key': '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'
+        'api-key': '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'
       },
       body: JSON.stringify({updateEnabled: false, email: email_address, listIds: [3]})
     };
