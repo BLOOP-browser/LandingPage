@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5d17df7b.css",
-    "main.js": "/static/js/main.1c911623.js",
+    "main.js": "/static/js/main.e8500093.js",
     "static/media/EXPORT.svg": "/static/media/EXPORT.01d138b5a0b49c959503e9b35043e440.svg",
     "static/media/NEWUIVISION-web3.png": "/static/media/NEWUIVISION-web3.a49a0724004519424ff2.png",
     "static/media/NEWUIVISION-movie direction.png": "/static/media/NEWUIVISION-movie direction.38b053209229c6695dc5.png",
@@ -18,10 +18,10 @@
     "index.html": "/index.html",
     "static/media/twitter.svg": "/static/media/twitter.395ae86625aaedbfd03a9fe3a01f4aa5.svg",
     "main.5d17df7b.css.map": "/static/css/main.5d17df7b.css.map",
-    "main.1c911623.js.map": "/static/js/main.1c911623.js.map"
+    "main.e8500093.js.map": "/static/js/main.e8500093.js.map"
   },
   "entrypoints": [
     "static/css/main.5d17df7b.css",
-    "static/js/main.1c911623.js"
+    "static/js/main.e8500093.js"
   ]
 }
