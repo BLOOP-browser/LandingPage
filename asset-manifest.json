@@ -1,27 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d17df7b.css",
-    "main.js": "/static/js/main.e8500093.js",
-    "static/media/EXPORT.svg": "/static/media/EXPORT.01d138b5a0b49c959503e9b35043e440.svg",
-    "static/media/NEWUIVISION-web3.png": "/static/media/NEWUIVISION-web3.a49a0724004519424ff2.png",
-    "static/media/NEWUIVISION-movie direction.png": "/static/media/NEWUIVISION-movie direction.38b053209229c6695dc5.png",
-    "static/media/NEWUIVISION-games.png": "/static/media/NEWUIVISION-games.0ef5ab370c4188c17636.png",
-    "static/media/BloopExample.svg": "/static/media/BloopExample.7e41395cc09589cfae445d4c7659e6cf.svg",
+    "main.css": "/static/css/main.27f1d142.css",
+    "main.js": "/static/js/main.ef07cfd1.js",
     "static/media/filecoin.svg": "/static/media/filecoin.2b8acf8dee5564a44d90189899884907.svg",
     "static/media/protocolLabs.svg": "/static/media/protocolLabs.412731c0ce6cb844c91f88d4476397f8.svg",
     "static/media/techstars.svg": "/static/media/techstars.da515f47864a3096f98e5e8fc0db428f.svg",
-    "static/media/EDIT.svg": "/static/media/EDIT.fe6728d65884c8f4734e5f4df58f24da.svg",
     "static/media/BLOOPLOGO.svg": "/static/media/BLOOPLOGO.d4bf394e74dbeb69a718867f6989855a.svg",
     "static/media/Group 916.svg": "/static/media/Group 916.b7560ec616ef16f11548.svg",
     "static/media/Ellipse 1155.svg": "/static/media/Ellipse 1155.cffdf3d0ba49a6d90663.svg",
     "static/media/Ellipse 1154.svg": "/static/media/Ellipse 1154.64c55b7aa2a07b4511f3.svg",
     "index.html": "/index.html",
     "static/media/twitter.svg": "/static/media/twitter.395ae86625aaedbfd03a9fe3a01f4aa5.svg",
-    "main.5d17df7b.css.map": "/static/css/main.5d17df7b.css.map",
-    "main.e8500093.js.map": "/static/js/main.e8500093.js.map"
+    "main.27f1d142.css.map": "/static/css/main.27f1d142.css.map",
+    "main.ef07cfd1.js.map": "/static/js/main.ef07cfd1.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d17df7b.css",
-    "static/js/main.e8500093.js"
+    "static/css/main.27f1d142.css",
+    "static/js/main.ef07cfd1.js"
   ]
 }
