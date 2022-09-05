@@ -25,23 +25,25 @@ function App() {
           <div className="main-content">
         
               <div className="main-text">
-                <h1>A browser for the curious</h1>
-                <p>Create your map of the internet.</p>
+                <h1>Search for your socials</h1>
+                <p>Easily find and share any message from Reddit, Discord, and beyond.</p>
               </div>
-              <SignUpForm/>
               <a className='twitter' target="blank" href="https://twitter.com/getbloop">
                 <div className="twitterhandle">
                   <img className='twitter-icon' src={twitterIcon} alt="Bloop's Twitter" />
                   <h3>Follow us on Twitter</h3>
                 </div>
               </a>
+              
+              {/* <SignUpForm/> */}
+              
           </div>
         </main>
         {/* </Fade> */}
 
-      <Slider/>
+      {/* <Slider/> */}
 
-      <div className="connect-copy">
+      {/* <div className="connect-copy">
         <div className="connect-copy-content">
           <div>
             <p>Connect your interests.</p>
@@ -74,12 +76,12 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className='footer-cta'>
         <Fade duration ={2000}>
           <div className="footer-cta-content">
-            <h3>Get access to the BLOOP private beta</h3>
+            <h3 >Get access to the BLOOP Search beta</h3>
             <SignUpForm/>
           </div>
         </Fade>

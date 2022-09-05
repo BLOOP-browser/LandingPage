@@ -22,7 +22,7 @@ header {
 
 main {
   background-image: url("Group 916.svg");
-  height: 600px;
+  height: 500px;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  /* margin-top: 5%; */
+  margin-top: 5%;
   margin-bottom:5%;
 }
 .main-content {
@@ -373,7 +373,7 @@ form {
   main{
     background-image: none;
     text-align: left;
-    padding: 15px;
+    padding: 20px;
     justify-content: flex-start;
     align-items: flex-start;
   }
