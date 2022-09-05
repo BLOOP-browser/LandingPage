@@ -22,7 +22,7 @@ header {
 
 main {
   background-image: url("Group 916.svg");
-  height: 500px;
+  height: 600px;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,6 +39,8 @@ main {
   position: relative;
   margin-right: 64px;
   margin-left: 64px;
+  padding-left: 20px;
+  padding-left: 20px;
   display: flex;
   width: auto;
   flex-direction: column;
@@ -63,12 +65,13 @@ main {
   font-weight: 700;
   font-size: 96px;
   line-height: 86.52%;
-  text-align: center;
+  text-align: left;
   margin-bottom: 45px;
 }
 .main-text p {
   font-weight: 500;
   font-size: 32px;
+  text-align: left;
   line-height: 39px;
   color: #BCC7F1;
 }
@@ -301,7 +304,7 @@ form {
     margin-top: 60px;
   }
   .main-text h1{
-    font-size: 60px;
+    font-size: 55px;
   }
   .main-text p {
     font-size: 24px;
@@ -411,12 +414,18 @@ form {
   }
   main {
     background-size: 800px;
+    padding-inline: 40px;
   }
   #copyright{
     margin-left: 10px;
   }
   .copyright-cta {
     padding: 30px 15px;
+  }
+  .footer-cta h3 {
+    margin-inline: 50px;
+    margin-bottom: 22px;
+    text-align: left;
   }
 }
 
@@ -440,6 +449,7 @@ form {
   }
   main{
     background-size: 100%;
+    padding-inline: 50px;
   }
   #copyright{
     margin-left: 0;
@@ -466,5 +476,22 @@ form {
     /* text-align: center; */
     /* align-items: center; */
     margin-bottom: 20px;
+  }
+  .footer-cta h3 {
+    margin-inline: 50px;
+    margin-bottom: 22px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 414px) {
+  
+  .main-text h1 {
+    font-size: 45px;
+  }
+  .footer-cta h3 {
+    margin-inline: 50px;
+    margin-bottom: 22px;
+    text-align: left;
   }
 }
