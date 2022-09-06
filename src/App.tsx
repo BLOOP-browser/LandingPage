@@ -26,7 +26,7 @@ function App() {
         
               <div className="main-text">
                 <h1>Commmunity curated search</h1>
-                <p>Easily find and share any message from Reddit, Discord, and beyond.</p>
+                <p>Save, share, and search links from Discord, Reddit, and beyond.</p>
               </div>
               <a className='twitter' target="blank" href="https://twitter.com/getbloop">
                 <div className="twitterhandle">
