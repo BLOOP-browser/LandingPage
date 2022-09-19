@@ -10,7 +10,7 @@ export async function sendEmailTest(email_address: string) {
       headers: {
         Accept: 'application/json',
         'Content-Type': 'application/json',
-        'api-key': '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'
+        'api-key': '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'
       },
       body: JSON.stringify({updateEnabled: false, email: email_address, listIds: [3]})
     };
