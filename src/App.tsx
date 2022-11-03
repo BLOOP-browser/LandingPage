@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       {/* <Fade duration ={5000}> */}
         <header>
-              <img className='logo' src={bloopLogo}  alt="Bloop Browser" />
+              <img className='logo' src={bloopLogo}  alt="BLOOP - Community curated search" />
         </header>
         <main>
           <div className="main-content">
