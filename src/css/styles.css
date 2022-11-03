@@ -22,7 +22,7 @@ header {
 
 main {
   background-image: url("Group 916.svg");
-  height: 600px;
+  height: 63vh;
   background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  margin-top: 5%;
+  margin-top: 1%;
   margin-bottom:5%;
 }
 .main-content {
@@ -115,9 +115,21 @@ form {
   border-radius: 15px;
   font-weight: bold;
 }
+
+#sign-up-button {
+  background-color: #ee6b41;
+  font-size: 1.3em;
+  padding: 8px;
+  height: 50px;
+  width: 250px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
 .footer-cta {
-  margin: 80px 0px 80px 0px;
-  padding: 20px;
+  margin-bottom: 80px;
+  padding-top: 1px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
