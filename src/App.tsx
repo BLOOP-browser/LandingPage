@@ -100,7 +100,7 @@ function App() {
       <div className='copyright-cta'>
         <div className= 'copyright-text'>
           <p id='links'>Email <a href="mailto:hi@getbloop.co">hi@getbloop.co</a> or DM <a href="https://twitter.com/getbloop" target="_blank" rel='noreferrer'>@getBLOOP</a> on Twitter to try the private beta</p>
-          <p id='copyright'>Copyright BLOOP 2022</p>
+          <p id='copyright'>Copyright BLOOP (Misplace Corp) 2022</p>
         </div>
       </div>
     </div>
