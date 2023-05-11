@@ -12,6 +12,7 @@ import exportImg from './img/EXPORT.svg'
 import filecoin from './img/filecoin.svg'
 import techstars from './img/techstars.svg'
 import protocolLabs from './img/protocolLabs.svg'
+import discordIcon from './img/discord.svg'
 
 function App() {
   return (
@@ -28,12 +29,23 @@ function App() {
                 <h1>Community curated search</h1>
                 <p>Save, share, and search links from Discord, Whatsapp, Reddit, and beyond.</p>
               </div>
+              <div className='socials'>
+              <a className='twitter' target="blank" href="https://discord.gg/BH5EP55J6m">
+                <div className="twitterhandle">
+                  <img className='twitter-icon' src={discordIcon} alt="Discord invite link" />
+                  <h3>Join the Discord</h3>
+                </div>
+              </a>
+
+              
               <a className='twitter' target="blank" href="https://twitter.com/getbloop">
                 <div className="twitterhandle">
-                  <img className='twitter-icon' src={twitterIcon} alt="Bloop's Twitter" />
+                  <img className='twitter-icon' src={twitterIcon} alt="BLOOP's Twitter" />
                   <h3>Follow us on Twitter</h3>
                 </div>
               </a>
+
+              </div>
               
               {/* <SignUpForm/> */}
               

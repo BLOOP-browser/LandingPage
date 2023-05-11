@@ -81,6 +81,18 @@ form {
   justify-content: center;
   margin-bottom: 20px;
 }
+.socials{
+  display: flex;
+  flex-direction: row;
+  margin-inline: auto;
+  gap: 60px;
+  @media only screen and (max-width:567px) {
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+  }
+}
+
   .twitter{
   margin-top: 20px;
 }
@@ -96,7 +108,8 @@ form {
 }
 .twitter-icon{
   width: 20px;
-  margin-right: 35px;
+  margin-right: 30px;
+  fill: #9FADBE;
 }
 .cta input {
   background-color: #181E1A;
