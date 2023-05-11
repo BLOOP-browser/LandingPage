@@ -81,7 +81,7 @@ function App() {
       <div className='footer-cta'>
         <Fade duration ={2000}>
           <div className="footer-cta-content">
-            <a href = "https://tally.so/r/nGe9Yo" id='sign-up-button' > Try the BLOOP beta</a>
+            <a href = "http://eepurl.com/iilQ79" id='sign-up-button' > Try the BLOOP beta</a>
             {/* <h3 >Get access to the BLOOP Search beta</h3> */}
             {/* <SignUpForm/> */}
           </div>
