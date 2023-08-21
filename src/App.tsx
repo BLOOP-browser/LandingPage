@@ -26,8 +26,8 @@ function App() {
           <div className="main-content">
         
               <div className="main-text">
-                <h1>Discover the web from someone else's eyes</h1>
-                <p> Get search results vetted by your friends, team, or favorite creators.</p>
+                <h1>Discover the web with new eyes</h1>
+                <p> Better search results. Vetted by your friends, team, or favorite creators.</p>
               </div>
               <div className='socials'>
               <a className='twitter' target="blank" href="https://discord.gg/BH5EP55J6m">
