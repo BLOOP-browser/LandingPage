@@ -1,24 +1,25 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import { SignUpForm } from './signup-form'; 
-import './css/styles.css'
-import bloopLogo from "./img/BLOOPLOGO.svg"
-import { Slider } from './slider';
+import { SignUpForm } from '../signup-form'; 
+import '../css/styles.css'
+import bloopLogo from "../img/BLOOPLOGO.svg";
+import { Slider } from '../slider';
 import Fade from 'react-reveal/Fade'
-import twitterIcon from './img/twitter.svg'
-import bloopExample from './img/BloopExample.svg'
-import editImg from './img/EDIT.svg'
+import twitterIcon from '../img/twitter.svg'
+import bloopExample from '../img/BloopExample.svg'
+import editImg from '../img/EDIT.svg'
 import exportImg from './img/EXPORT.svg'
-import filecoin from './img/filecoin.svg'
-import techstars from './img/techstars.svg'
-import protocolLabs from './img/protocolLabs.svg'
-import discordIcon from './img/discord.svg'
-import PrivacyPolicyPage from './Pages/privacy';
+import filecoin from '../img/filecoin.svg'
+import techstars from '../img/techstars.svg'
+import protocolLabs from '../img/protocolLabs.svg'
+import discordIcon from '../img/discord.svg'
 
-function App() {
-  return (
-    
-    <div className="App">
+
+
+function HomePage() {
+    return (
+
+<div className="App">
       {/* <Fade duration ={5000}> */}
         <header>
               <img className='logo' src={bloopLogo}  alt="BLOOP - Community curated search" />
@@ -28,7 +29,7 @@ function App() {
         
               <div className="main-text">
                 <h1>Discover the web with new eyes</h1>
-                <p> Cross paths with friends and likeminded people online. </p>
+                <p> Get search results vetted by your friends, team, or favorite creators.</p>
               </div>
               <div className='socials'>
               <a className='twitter' target="blank" href="https://discord.gg/BH5EP55J6m">
@@ -114,19 +115,12 @@ function App() {
         <div className= 'copyright-text'>
           <p id='links'>Email <a href="mailto:hi@getbloop.co">hi@getbloop.co</a> or DM <a href="https://twitter.com/getbloop" target="_blank" rel='noreferrer'>@getBLOOP</a> on Twitter to try the private beta</p>
           <p id='copyright'>Copyright BLOOP (Misplace Corp) 2022</p>
-          <p id = 'copyright' > <a href="https://www.freeprivacypolicy.com/live/e969e420-1bf2-4f35-b872-15080ad2f556">Privacy Policy</a> </p>
-          
+          {/* <p id = 'links'> <Link to = "/privacy">Privacy Policy</Link>  </p> */}
         </div>
       </div>
-    
-
-      
-    
     </div>
 
-    
-    
-  );
-}
+    );
+};
 
-export default App;
+export default HomePage;
