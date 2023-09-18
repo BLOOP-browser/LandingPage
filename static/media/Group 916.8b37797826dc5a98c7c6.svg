@@ -8,12 +8,12 @@
           660.9073125000001,1060.2054804687498,0,0" keyTimes="0; 0.6159999999999999; 1"></animate></path>
 <defs>
 <linearGradient id="paint0_linear_1012_11804" x1="-252" y1="-20.0001" x2="1330.5" y2="826" gradientUnits="userSpaceOnUse">
-<stop stop-color="#EE6B41"></stop>
-<stop offset="1" stop-color="#EE6B41" stop-opacity="0"></stop>
+<stop stop-color="#5EBF9E"></stop>
+<stop offset="1" stop-color="#FFE781" stop-opacity="0"></stop>
 </linearGradient>
 <linearGradient id="paint1_linear_1012_11804" x1="419.5" y1="235" x2="1206" y2="357" gradientUnits="userSpaceOnUse">
-<stop offset="0.231153" stop-color="#213C9C"></stop>
-<stop offset="1" stop-color="#213C9C" stop-opacity="0"></stop>
+<stop offset="0.231153" stop-color="#F22C7F" ></stop>
+<stop offset="1" stop-color="#FFE781" stop-opacity="0"></stop>
 </linearGradient>
 </defs>
 <setting>{"type":"loader","speed":11,"random":1,"shift":1,"size":1,"rupture":24}</setting></svg>
